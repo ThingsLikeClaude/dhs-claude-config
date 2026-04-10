@@ -1,0 +1,189 @@
+# Skill Tree Index v1.0
+# 73 skills classified into 10 domains
+# _desc: node description (shown to user)
+# _keywords: trigger keywords (ko/en)
+# leaf value: skill directory name
+# [global]: stays in ~/.claude/skills/ (not in pool)
+
+presentation:
+  _desc: "프레젠테이션/시각화"
+  _keywords: ["ppt", "프레젠테이션", "슬라이드", "발표", "presentation", "slide", "deck"]
+  stalab: stalab-ppt
+
+google-workspace:
+  _desc: "Google Workspace"
+  _keywords: ["구글", "워크스페이스", "google workspace"]
+  mail:
+    _desc: "Gmail"
+    _keywords: ["메일", "이메일", "gmail", "mail", "inbox"]
+    send: gws-gmail-send
+    triage: gws-gmail-triage
+    forward: gws-gmail-forward
+    reply: gws-gmail-reply
+    reply-all: gws-gmail-reply-all
+    watch: gws-gmail-watch
+  calendar:
+    _desc: "Google Calendar"
+    _keywords: ["캘린더", "일정", "calendar", "event", "schedule"]
+    manage: gws-calendar
+    agenda: gws-calendar-agenda
+    insert: gws-calendar-insert
+  drive:
+    _desc: "Google Drive"
+    _keywords: ["드라이브", "파일관리", "drive", "upload"]
+    manage: gws-drive
+    upload: gws-drive-upload
+  sheets:
+    _desc: "Google Sheets"
+    _keywords: ["시트", "스프레드시트", "sheets", "spreadsheet"]
+    manage: gws-sheets
+    append: gws-sheets-append
+    read: gws-sheets-read
+  tasks: gws-tasks
+  shared: gws-shared
+  workflow:
+    _desc: "GWS 워크플로우"
+    _keywords: ["워크플로우", "자동화", "workflow"]
+    manage: gws-workflow
+    email-to-task: gws-workflow-email-to-task
+    file-announce: gws-workflow-file-announce
+    meeting-prep: gws-workflow-meeting-prep
+    standup: gws-workflow-standup-report
+    weekly: gws-workflow-weekly-digest
+  recipe:
+    _desc: "GWS 자동화 레시피"
+    _keywords: ["레시피", "recipe"]
+    events-from-sheet: recipe-create-events-from-sheet
+    gmail-filter: recipe-create-gmail-filter
+    free-time: recipe-find-free-time
+    large-files: recipe-find-large-files
+    label-archive: recipe-label-and-archive-emails
+    organize-folder: recipe-organize-drive-folder
+    overdue-tasks: recipe-review-overdue-tasks
+    save-attachments: recipe-save-email-attachments
+  persona:
+    _desc: "GWS 역할별 워크플로우"
+    _keywords: ["비서", "PM", "콘텐츠매니저", "persona"]
+    content: persona-content-creator
+    assistant: persona-exec-assistant
+    pm: persona-project-manager
+
+ui:
+  _desc: "UI/UX 디자인"
+  _keywords: ["UI", "UX", "디자인", "design", "프론트", "frontend", "화면"]
+  architecture:
+    _desc: "UI 아키텍처/구조 설계"
+    _keywords: ["UI 설계", "컴포넌트 구조", "UI architecture"]
+    taste: design-taste-frontend
+  system:
+    _desc: "디자인 시스템/스타일"
+    _keywords: ["팔레트", "폰트", "스타일", "palette", "font", "style guide"]
+    pro: ui-ux-pro-max  # [global]
+  audit:
+    _desc: "UI 리뷰/감사"
+    _keywords: ["UI 리뷰", "가이드라인 점검", "audit UI", "review UI"]
+    guidelines: web-design-guidelines
+  a11y:
+    _desc: "웹 접근성"
+    _keywords: ["접근성", "WCAG", "a11y", "accessibility", "스크린리더"]
+    wcag: accessibility-a11y
+  responsive:
+    _desc: "반응형 디자인"
+    _keywords: ["반응형", "컨테이너 쿼리", "responsive", "container query"]
+    container: css-container-queries
+  components:
+    _desc: "UI 컴포넌트 라이브러리"
+    _keywords: ["shadcn", "컴포넌트", "component", "테이블", "table"]
+    shadcn: shadcn-ui
+    tanstack: tanstack-table
+  tailwind:
+    _desc: "Tailwind CSS"
+    _keywords: ["tailwind", "테일윈드", "tw"]
+    system: tailwind-design-system
+    theme: tailwind-theme-builder
+
+review:
+  _desc: "코드 리뷰/최적화"
+  _keywords: ["리뷰", "코드 리뷰", "review", "코드 분석"]
+  frontend:
+    _desc: "프론트엔드 파일 리뷰"
+    _keywords: ["tsx 리뷰", "프론트 리뷰", "frontend review", ".tsx", ".ts"]
+    checklist: frontend-code-review
+  react:
+    _desc: "React/Next.js 최적화"
+    _keywords: ["React", "Next.js", "성능", "최적화", "vercel", "SSR"]
+    best-practices: vercel-react-best-practices
+    cache: cache-components
+    nextjs-auth: nextjs-supabase-auth
+
+verify:
+  _desc: "검증/QA/테스트"
+  _keywords: ["검증", "verify", "QA", "테스트", "test", "e2e"]
+  engine: verification-engine
+  implementation: verify-implementation
+  e2e: playwright-e2e-testing
+
+security:
+  _desc: "보안 점검"
+  _keywords: ["보안", "security", "취약점", "vulnerability", "CWE", "STRIDE"]
+  pipeline: security-pipeline
+
+session:
+  _desc: "세션 관리/종료"
+  _keywords: ["세션", "종료", "정리", "wrap up", "session"]
+  wrap: session-wrap
+  save: wrapup
+
+content:
+  _desc: "문서/콘텐츠 생성"
+  _keywords: ["PDF", "Word", "문서", "유튜브", "영상", "숏츠"]
+  pdf: pdf
+  docx: docx
+  youtube: youtube-playlist-notes
+  shorts: shorts
+  remotion: remotion-best-practices
+
+interview:
+  _desc: "인터뷰/요구사항 도출"
+  _keywords: ["인터뷰", "interview", "요구사항", "질문"]
+  deep: deep-interview  # [global]
+
+dev-tools:
+  _desc: "개발 도구/유틸리티"
+  _keywords: ["도구", "유틸", "tool", "utility"]
+  browser:
+    _desc: "브라우저 자동화"
+    _keywords: ["브라우저", "browser", "자동화", "automation"]
+    agent: agent-browser
+  forge:
+    _desc: "에이전트/스킬 빌드"
+    _keywords: ["에이전트", "스킬 만들기", "agent build", "skill create"]
+    agentforge: agentforge
+    skill-factory: skill-factory
+    find-skills: find-skills
+    manage-skills: manage-skills
+  orchestration:
+    _desc: "팀/오케스트레이션"
+    _keywords: ["팀", "오케스트레이션", "team", "orchestrate"]
+    team: team-orchestrator
+  cc:
+    _desc: "Claude Code 도구"
+    _keywords: ["CC", "Claude Code", "learning"]
+    dev: cc-dev-agent
+    circuit: circuit-analyzer
+    continuous: continuous-learning-v2
+    health: health
+  git:
+    _desc: "Git 워크트리"
+    _keywords: ["worktree", "merge", "워크트리"]
+    merge-worktree: merge-worktree
+  project:
+    _desc: "프로젝트 특화"
+    _keywords: ["ordify", "품의서"]
+    ordify: ordify-cli
+
+note:
+  _desc: "노트/지식 관리"
+  _keywords: ["노트", "옵시디언", "obsidian", "note", "vault", "NotebookLM"]
+  obsidian: obsidian-vault  # [global]
+  notebooklm: notebooklm   # [global]

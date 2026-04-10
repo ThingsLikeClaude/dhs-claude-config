@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mcpmarket.com)",
+      "Bash(curl *)",
+      "Bash(ls *)",
+      "Bash(rm -f ~/.claude/commands/forge-update.md ~/.claude/commands/guide.md ~/.claude/commands/security-review.md ~/.claude/commands/show-setup.md)",
+      "Bash(rm -rf ~/.claude/commands/sc)"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "맵 입장료 미작동 문제 진단",
+    "status": "in_progress",
+    "activeForm": "맵 입장료 문제 진단 중"
+  },
+  {
+    "content": "게임 로그에서 실제 맵 오픈 이벤트 확인",
+    "status": "pending",
+    "activeForm": "로그에서 맵 오픈 이벤트 확인 중"
+  },
+  {
+    "content": "Spv3Open 이벤트 감지 여부 확인",
+    "status": "pending",
+    "activeForm": "Spv3Open 감지 확인 중"
+  },
+  {
+    "content": "맵 비용 데이터베이스 기록 확인",
+    "status": "pending",
+    "activeForm": "DB에서 맵 비용 확인 중"
+  },
+  {
+    "content": "대안 이벤트 패턴 조사 및 구현",
+    "status": "pending",
+    "activeForm": "대안 패턴 구현 중"
+  }
+]

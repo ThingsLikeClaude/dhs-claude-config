@@ -1,0 +1,22 @@
+[
+  {
+    "content": "runs.py API 엔드포인트 분석",
+    "status": "in_progress",
+    "activeForm": "runs.py 분석 중"
+  },
+  {
+    "content": "repository.py 런 상세 조회 로직 확인",
+    "status": "pending",
+    "activeForm": "repository 분석 중"
+  },
+  {
+    "content": "거래세 적용 일관성 검토",
+    "status": "pending",
+    "activeForm": "거래세 로직 검토 중"
+  },
+  {
+    "content": "프론트엔드 계산 로직 확인",
+    "status": "pending",
+    "activeForm": "프론트엔드 분석 중"
+  }
+]

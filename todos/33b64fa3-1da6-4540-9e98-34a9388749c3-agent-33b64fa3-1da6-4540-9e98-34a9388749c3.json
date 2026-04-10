@@ -1,0 +1,22 @@
+[
+  {
+    "content": "agents/ 폴더 구조 생성",
+    "status": "completed",
+    "activeForm": "agents/ 폴더 구조 생성 중"
+  },
+  {
+    "content": "개발팀 에이전트 정의 파일 생성 (5개)",
+    "status": "in_progress",
+    "activeForm": "개발팀 에이전트 정의 파일 생성 중"
+  },
+  {
+    "content": "미래전략실 에이전트 정의 파일 생성 (4개)",
+    "status": "pending",
+    "activeForm": "미래전략실 에이전트 정의 파일 생성 중"
+  },
+  {
+    "content": "에이전트 시스템 README 작성",
+    "status": "pending",
+    "activeForm": "에이전트 시스템 README 작성 중"
+  }
+]

@@ -1,0 +1,38 @@
+# Credentials & Secrets
+.credentials.json
+mcp-servers.json
+.mcp.json
+mcp-needs-auth-cache.json
+
+# Runtime & State
+history.jsonl
+mcp-usage.log
+.git/
+.bkit/
+.obsidian/
+cache/
+logs/
+debug/
+downloads/
+file-history/
+paste-cache/
+ide/
+backups/
+homunculus/
+projects/
+teams/
+tasks/
+
+# Telegram access (contains user IDs)
+channels/
+
+# Binary files
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docs (bkit generated)
+docs/

@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "plugins": {
+    "bkit@bkit-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\bkit-marketplace\\bkit\\1.6.1",
+        "version": "1.6.1",
+        "installedAt": "2026-02-05T13:00:04.037Z",
+        "lastUpdated": "2026-03-12T00:42:03.544Z",
+        "gitCommitSha": "5c2f42cdb7a6bf390e85c18b5c32998347abe9ba"
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\9.0.17",
+        "version": "9.0.17",
+        "installedAt": "2026-02-06T14:17:08.157Z",
+        "lastUpdated": "2026-02-06T14:17:08.157Z",
+        "gitCommitSha": "4d91053f8c58efa9c5c4bdd2cc08a13810ba5ff6"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\ralph-loop\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-20T00:20:34.373Z",
+        "lastUpdated": "2026-03-30T00:20:12.341Z",
+        "gitCommitSha": "8deab8460a9d4df5a01315ef722a5ca6b061c074"
+      }
+    ],
+    "bkit-starter@bkit-marketplace": [
+      {
+        "scope": "local",
+        "projectPath": "D:\\HarnessMainTemplate\\Ordify",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\bkit-marketplace\\bkit-starter\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-05T00:13:32.537Z",
+        "lastUpdated": "2026-03-05T00:13:32.537Z",
+        "gitCommitSha": "a33795780adc956cf5cfdf35159c6bc9ef63d3d2"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\skill-creator\\1057d02c5307",
+        "version": "1057d02c5307",
+        "installedAt": "2026-03-09T00:49:14.099Z",
+        "lastUpdated": "2026-04-10T05:32:34.897Z",
+        "gitCommitSha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\1057d02c5307",
+        "version": "1057d02c5307",
+        "installedAt": "2026-03-10T02:08:05.880Z",
+        "lastUpdated": "2026-04-10T05:32:34.842Z",
+        "gitCommitSha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
+      }
+    ],
+    "visualize@careerhackeralex": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\careerhackeralex\\visualize\\0.4.0",
+        "version": "0.4.0",
+        "installedAt": "2026-03-10T12:19:48.624Z",
+        "lastUpdated": "2026-03-10T12:19:48.624Z",
+        "gitCommitSha": "301077038e988088f720e8f6452c8c8e8cbea6f1"
+      }
+    ],
+    "obsidian@obsidian-skills": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\obsidian-skills\\obsidian\\1.0.1",
+        "version": "1.0.1",
+        "installedAt": "2026-03-11T00:30:22.869Z",
+        "lastUpdated": "2026-03-11T00:30:22.869Z",
+        "gitCommitSha": "bb9ec95e1b59c3471bd6fd77a78a4042430bfac3"
+      }
+    ],
+    "telegram@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\telegram\\0.0.4",
+        "version": "0.0.4",
+        "installedAt": "2026-03-22T11:20:01.348Z",
+        "lastUpdated": "2026-04-06T07:37:59.338Z",
+        "gitCommitSha": "61c0597779bd2d670dcd4fbbf37c66aa19eb2ce6"
+      }
+    ],
+    "codex@openai-codex": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\openai-codex\\codex\\1.0.2",
+        "version": "1.0.2",
+        "installedAt": "2026-04-03T04:23:07.169Z",
+        "lastUpdated": "2026-04-03T04:23:07.169Z",
+        "gitCommitSha": "8e403f9d4b496b0b0aff50fa3673f889f6a22cb1"
+      }
+    ]
+  }
+}

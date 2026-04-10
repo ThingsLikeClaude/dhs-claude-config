@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Renderer 패키지 설정 (React + Vite)",
+    "status": "completed",
+    "activeForm": "Renderer 패키지 설정 중"
+  },
+  {
+    "content": "Main process 초기화 및 Window Manager",
+    "status": "completed",
+    "activeForm": "Main process 초기화 중"
+  },
+  {
+    "content": "IPC 통신 계층 구현",
+    "status": "completed",
+    "activeForm": "IPC 통신 계층 구현 중"
+  },
+  {
+    "content": "Tray 및 백그라운드 실행",
+    "status": "completed",
+    "activeForm": "Tray 및 백그라운드 실행 설정 중"
+  },
+  {
+    "content": "의존성 설치 및 빌드 테스트",
+    "status": "in_progress",
+    "activeForm": "의존성 설치 및 빌드 테스트 중"
+  }
+]

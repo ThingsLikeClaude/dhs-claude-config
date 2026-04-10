@@ -1,0 +1,22 @@
+[
+  {
+    "content": "ItemChange@ Update 패턴 파서 추가 (log_parser.py)",
+    "status": "completed",
+    "activeForm": "Update 패턴 파서 추가 완료"
+  },
+  {
+    "content": "ItemChange@ Reset 패턴 파서 추가",
+    "status": "completed",
+    "activeForm": "Reset 패턴 파서 초가 완료"
+  },
+  {
+    "content": "Collector에서 새 이벤트 처리 로직 추가",
+    "status": "completed",
+    "activeForm": "Collector 수정 완료"
+  },
+  {
+    "content": "테스트 및 검증",
+    "status": "in_progress",
+    "activeForm": "테스트 중"
+  }
+]

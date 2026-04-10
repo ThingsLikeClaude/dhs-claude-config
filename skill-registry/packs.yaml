@@ -1,0 +1,149 @@
+# Skill Packs v1.0
+# Related skills bundled for project-level installation
+# detect: auto-detection conditions for SessionStart recommendation
+# skills: list of skill directory names from pool/
+
+frontend-pack:
+  description: "프론트엔드 UI/UX 개발 (10개)"
+  detect:
+    files: ["package.json"]
+    keywords: ["next", "react", "vue", "tailwind", "shadcn"]
+  skills:
+    - design-taste-frontend
+    - shadcn-ui
+    - tailwind-theme-builder
+    - tailwind-design-system
+    - css-container-queries
+    - frontend-code-review
+    - vercel-react-best-practices
+    - accessibility-a11y
+    - web-design-guidelines
+    - tanstack-table
+
+nextjs-pack:
+  description: "Next.js 특화 - 캐시, 인증, 최적화 (3개)"
+  detect:
+    files: ["next.config.js", "next.config.mjs", "next.config.ts"]
+    keywords: ["next"]
+  skills:
+    - cache-components
+    - nextjs-supabase-auth
+    - vercel-react-best-practices
+
+gws-essential-pack:
+  description: "Google Workspace 핵심 - Gmail, Calendar, Tasks (6개)"
+  detect:
+    manual: true
+  skills:
+    - gws-gmail-send
+    - gws-gmail-triage
+    - gws-calendar
+    - gws-calendar-agenda
+    - gws-tasks
+    - gws-shared
+
+gws-full-pack:
+  description: "Google Workspace 전체 (22개)"
+  detect:
+    manual: true
+  skills:
+    - gws-calendar
+    - gws-calendar-agenda
+    - gws-calendar-insert
+    - gws-drive
+    - gws-drive-upload
+    - gws-gmail-forward
+    - gws-gmail-reply
+    - gws-gmail-reply-all
+    - gws-gmail-send
+    - gws-gmail-triage
+    - gws-gmail-watch
+    - gws-shared
+    - gws-sheets
+    - gws-sheets-append
+    - gws-sheets-read
+    - gws-tasks
+    - gws-workflow
+    - gws-workflow-email-to-task
+    - gws-workflow-file-announce
+    - gws-workflow-meeting-prep
+    - gws-workflow-standup-report
+    - gws-workflow-weekly-digest
+
+gws-recipe-pack:
+  description: "GWS 자동화 레시피 + 페르소나 (11개)"
+  detect:
+    manual: true
+  skills:
+    - recipe-create-events-from-sheet
+    - recipe-create-gmail-filter
+    - recipe-find-free-time
+    - recipe-find-large-files
+    - recipe-label-and-archive-emails
+    - recipe-organize-drive-folder
+    - recipe-review-overdue-tasks
+    - recipe-save-email-attachments
+    - persona-content-creator
+    - persona-exec-assistant
+    - persona-project-manager
+
+qa-pack:
+  description: "테스트/검증 (3개)"
+  detect:
+    files: ["playwright.config.ts", "playwright.config.js"]
+    keywords: ["playwright", "e2e", "test"]
+  skills:
+    - playwright-e2e-testing
+    - verification-engine
+    - verify-implementation
+
+security-pack:
+  description: "보안 점검 (1개)"
+  detect:
+    manual: true
+  skills:
+    - security-pipeline
+
+content-pack:
+  description: "문서/콘텐츠 생성 (5개)"
+  detect:
+    manual: true
+  skills:
+    - pdf
+    - docx
+    - youtube-playlist-notes
+    - shorts
+    - remotion-best-practices
+
+presentation-pack:
+  description: "프레젠테이션 (1개)"
+  detect:
+    manual: true
+  skills:
+    - stalab-ppt
+
+dev-tools-pack:
+  description: "개발 도구/유틸리티 (12개)"
+  detect:
+    manual: true
+  skills:
+    - agent-browser
+    - agentforge
+    - skill-factory
+    - find-skills
+    - manage-skills
+    - team-orchestrator
+    - cc-dev-agent
+    - health
+    - circuit-analyzer
+    - continuous-learning-v2
+    - merge-worktree
+    - ordify-cli
+
+session-pack:
+  description: "세션 관리 (2개)"
+  detect:
+    manual: true
+  skills:
+    - session-wrap
+    - wrapup

@@ -1,0 +1,50 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "lastUpdated": "2026-04-10T05:32:34.816Z"
+  },
+  "bkit-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "popup-studio-ai/bkit-claude-code"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\bkit-marketplace",
+    "lastUpdated": "2026-03-05T00:24:12.264Z"
+  },
+  "thedotmack": {
+    "source": {
+      "source": "github",
+      "repo": "thedotmack/claude-mem"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\thedotmack",
+    "lastUpdated": "2026-02-06T14:16:53.257Z"
+  },
+  "careerhackeralex": {
+    "source": {
+      "source": "github",
+      "repo": "careerhackeralex/visualize"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\careerhackeralex",
+    "lastUpdated": "2026-03-10T12:19:46.290Z"
+  },
+  "obsidian-skills": {
+    "source": {
+      "source": "github",
+      "repo": "kepano/obsidian-skills"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\obsidian-skills",
+    "lastUpdated": "2026-03-11T00:30:08.094Z"
+  },
+  "openai-codex": {
+    "source": {
+      "source": "github",
+      "repo": "openai/codex-plugin-cc"
+    },
+    "installLocation": "C:\\Users\\f4u12\\.claude\\plugins\\marketplaces\\openai-codex",
+    "lastUpdated": "2026-04-03T04:22:41.670Z"
+  }
+}
