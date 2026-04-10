@@ -45,20 +45,20 @@
     "skill-creator@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\skill-creator\\1057d02c5307",
-        "version": "1057d02c5307",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\skill-creator\\c0c1c13f5202",
+        "version": "c0c1c13f5202",
         "installedAt": "2026-03-09T00:49:14.099Z",
-        "lastUpdated": "2026-04-10T05:32:34.897Z",
+        "lastUpdated": "2026-04-10T05:34:17.871Z",
         "gitCommitSha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
       }
     ],
     "frontend-design@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\1057d02c5307",
-        "version": "1057d02c5307",
+        "installPath": "C:\\Users\\f4u12\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\c0c1c13f5202",
+        "version": "c0c1c13f5202",
         "installedAt": "2026-03-10T02:08:05.880Z",
-        "lastUpdated": "2026-04-10T05:32:34.842Z",
+        "lastUpdated": "2026-04-10T05:34:17.857Z",
         "gitCommitSha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
       }
     ],
