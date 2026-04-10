@@ -27,7 +27,6 @@ tasks/
 channels/
 
 # Binary files
-*.wav
 *.mp3
 
 # OS files
